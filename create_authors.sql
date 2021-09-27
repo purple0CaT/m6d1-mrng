@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS 
+authors(
+    author_id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    name VARCHAR(20) NOT NULL,
+    last_name VARCHAR(20) NOT NULL,
+    birth_year INTEGER NOT NULL,
+    country VARCHAR(20) NOT NULL
+)
